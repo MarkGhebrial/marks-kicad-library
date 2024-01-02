@@ -125,4 +125,9 @@
       fe00fb89-db5f-4d07-b9e0-9836af897453
     )
   )
+  (model "${KIPRJMOD}/marks-kicad-library/3D Models/2601-1106.stp"
+    (offset (xyz 1.06 -5 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 90 180 -90))
+  )
 )
