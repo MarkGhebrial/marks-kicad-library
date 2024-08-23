@@ -149,7 +149,7 @@
     (property "Value" "" (at -17.78 22.86 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Marks Library:Adafruit_ItsyBitsy_M0_Express" (at -17.78 22.86 0)
+    (property "Footprint" "" (at -17.78 22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at -17.78 22.86 0)
