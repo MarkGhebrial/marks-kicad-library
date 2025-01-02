@@ -1,0 +1,60 @@
+(footprint "ITR20001-T" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr through_hole)
+  (fp_text reference "REF**" (at 0 -4 unlocked) (layer "F.SilkS")
+      (effects (font (size 1 1) (thickness 0.1)))
+    (tstamp 42022b32-738c-48e9-9f81-904480121805)
+  )
+  (fp_text value "ITR20001-T" (at 0 -2.5 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 2a264746-9820-4468-8cf8-c504544faad0)
+  )
+  (fp_text user "${REFERENCE}" (at 0 -1 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 0c87e1e0-a9e0-45fa-bdab-4928d8061547)
+  )
+  (fp_line (start -2.45 3.2) (end -2.45 -2.7)
+    (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp e7137626-e301-49e1-b45f-0358200d7d85))
+  (fp_line (start -1.95 -3.2) (end -2.45 -2.7)
+    (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp 2529ceb7-a6f2-4e3a-9a44-1095db1f2cc9))
+  (fp_line (start 2.45 -3.2) (end -1.95 -3.2)
+    (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp f3d3c106-c6b8-40d3-9a04-c5816bb4b340))
+  (fp_line (start 2.45 3.2) (end -2.45 3.2)
+    (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp 5f97399d-14e6-4106-9992-6311fc7e05f7))
+  (fp_line (start 2.45 3.2) (end 2.45 -3.2)
+    (stroke (width 0.1) (type default)) (layer "F.SilkS") (tstamp 1b5d33b6-cc70-4fac-bea7-47a64327e715))
+  (fp_rect (start -2.45 -3.2) (end 2.45 3.2)
+    (stroke (width 0.05) (type default)) (fill none) (layer "F.CrtYd") (tstamp 369fe7e4-60af-4673-b00d-0bb97861296b))
+  (pad "1" thru_hole circle (at -1.27 -1.4) (size 1.524 1.524) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp 1e0d98d7-2dd8-4097-b145-fe38eb7ca4f0))
+  (pad "2" thru_hole circle (at -1.27 1.4) (size 1.524 1.524) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp d9e892b8-dead-4595-bfe8-5847aba3d52d))
+  (pad "3" thru_hole circle (at 1.27 1.4) (size 1.524 1.524) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp 0f279cb6-967c-4940-80c5-71441a84de0e))
+  (pad "4" thru_hole circle (at 1.27 -1.4) (size 1.524 1.524) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp 1bd7d67f-260e-4b18-b74f-4bc165b2c2d9))
+  (group "" (id 8892695d-ee40-4fc2-98de-5771cd3f4f7f)
+    (members
+      e4741ecc-673a-48f5-9476-e1c9f63ef478
+      f06649d7-0274-404f-aefc-3ad2cd3e8275
+    )
+  )
+  (group "" (id e4741ecc-673a-48f5-9476-e1c9f63ef478)
+    (members
+      0f279cb6-967c-4940-80c5-71441a84de0e
+      1bd7d67f-260e-4b18-b74f-4bc165b2c2d9
+      1e0d98d7-2dd8-4097-b145-fe38eb7ca4f0
+      d9e892b8-dead-4595-bfe8-5847aba3d52d
+    )
+  )
+  (group "" (id f06649d7-0274-404f-aefc-3ad2cd3e8275)
+    (members
+      1b5d33b6-cc70-4fac-bea7-47a64327e715
+      2529ceb7-a6f2-4e3a-9a44-1095db1f2cc9
+      5f97399d-14e6-4106-9992-6311fc7e05f7
+      e7137626-e301-49e1-b45f-0358200d7d85
+      f3d3c106-c6b8-40d3-9a04-c5816bb4b340
+    )
+  )
+  (model "${KIPRJMOD}/marks-kicad-library/3D Models/ITR20001-T.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)
